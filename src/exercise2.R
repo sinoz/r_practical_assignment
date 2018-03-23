@@ -6,3 +6,9 @@ source("utils.R")
 computeMeanAlcohol <- function(data) {
   return(mean(data$alcohol))
 }
+
+# Computes the standard deviation of the 'alcohol' variable in the specified
+# data set. May throw an exception if no such variable is found.
+computeStandardDeviationAlcohol <- function(data) {
+  return(sd(data$alcohol))
+}
